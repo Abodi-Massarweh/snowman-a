@@ -6,7 +6,6 @@
  */
 
 #include "snowman.hpp"
-
 #include <iostream>
 #include <stdexcept>
 using namespace std;
@@ -30,4 +29,5 @@ _===_
 	} catch (exception& ex) {
 	 	cout << "   caught exception: " << ex.what() << endl;  // should print "Invalid code '5'"
 	}
+
 }
